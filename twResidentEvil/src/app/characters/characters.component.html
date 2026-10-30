@@ -1,3 +1,15 @@
-<div>
- 
+
+<h2 class="text-white m-4 text-3xl">Personajes</h2>
+  <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 m-8">
+  @for (c of characters; track c.id) {
+    <article class="rounded-lg border border-zinc-600 bg-zinc-800 text-white">
+      <img class="rounded-lg h-94 w-full bg-zinc-900 object-contain p-2" [src]="c.imatge" [alt]="c.nom">
+      <div class="space-y-2 p-4">
+        <h2 class="text-xl font-bold">{{ c.nom }}</h2>
+        <p>{{ c.rol }}</p>
+        <p class="text-sm text-zinc-300">{{ c.affiliation }} · {{ c.status }}</p>
+        <p class="text-sm text-zinc-300">{{ c.bio }}</p>
+      </div>
+    </article>
+  }
 </div>

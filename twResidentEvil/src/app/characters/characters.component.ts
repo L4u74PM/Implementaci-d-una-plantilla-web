@@ -16,7 +16,7 @@ export class CharactersComponent {
           rol: 'Especialista en cerraduras y desactivación',
           affiliation: 'S.T.A.R.S.',
           bio: 'Miembro del equipo Alfa de S.T.A.R.S. y superviviente de la Mansión Spencer y de Némesis.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Jill_Valentine_RE3R.png',
           status: 'Vivo'
         },
         {
@@ -25,7 +25,7 @@ export class CharactersComponent {
           rol: 'Tirador de élite y capitán de operaciones',
           affiliation: 'S.T.A.R.S.',
           bio: 'Ex-miembro de S.T.A.R.S. y fundador de la B.S.A.A., dedicado a combatir el bioterrorismo.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Chris_Redfield_RE5.png',
           status: 'Vivo'
         },
         {
@@ -34,7 +34,7 @@ export class CharactersComponent {
           rol: 'Activista de derechos humanos en TerraSave',
           affiliation: 'Superviviente',
           bio: 'Hermana de Chris Redfield. Llegó a Raccoon City buscándolo y logró escapar con Sherry Birkin.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Claire_Redfield.png',
           status: 'Vivo'
         },
         {
@@ -43,7 +43,7 @@ export class CharactersComponent {
           rol: 'Agente especial de la D.S.O.',
           affiliation: 'Superviviente',
           bio: 'Sobrevivió a su primer día como policía en Raccoon City y fue reclutado como agente federal.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Leon_Kennedy_RE9.png',
           status: 'Vivo'
         },
         {
@@ -52,7 +52,7 @@ export class CharactersComponent {
           rol: 'Espía y mercenaria corporativa',
           affiliation: 'Agente',
           bio: 'Misteriosa espía con motivos ocultos, contratada a menudo para robar muestras de virus.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Ada_Wong_RE4R.png',
           status: 'Vivo'
         },
         {
@@ -61,7 +61,7 @@ export class CharactersComponent {
           rol: 'Médico de campo y bioquímica',
           affiliation: 'S.T.A.R.S.',
           bio: 'La integrante más joven del equipo Bravo de S.T.A.R.S. y superviviente de los montes Arklay.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/250px-RebeccaNew.png',
           status: 'Vivo'
         },
         {
@@ -70,7 +70,7 @@ export class CharactersComponent {
           rol: 'Capitán de S.T.A.R.S. / Investigador de Umbrella',
           affiliation: 'Umbrella',
           bio: 'Traidor infiltrado en la policía que buscó la evolución forzada mediante virus biológicos.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Albert_Wesker.png',
           status: 'Fallecido'
         },
         {
@@ -79,7 +79,7 @@ export class CharactersComponent {
           rol: 'Hija del presidente de EE.UU.',
           affiliation: 'Civil',
           bio: 'Secuestrada por el culto de Los Iluminados en España y rescatada por Leon S. Kennedy.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Ashley-RE4-Render.png',
           status: 'Vivo'
         },
         {
@@ -88,7 +88,7 @@ export class CharactersComponent {
           rol: 'Agente de seguridad nacional',
           affiliation: 'Superviviente',
           bio: 'Hija de William Birkin. Portadora de anticuerpos del Virus G tras sobrevivir en Raccoon City.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/Sherry_Birkin_RER.png',
           status: 'Vivo'
         },
         {
@@ -97,10 +97,9 @@ export class CharactersComponent {
           rol: 'Agente de la división de África occidental',
           affiliation: 'B.S.A.A.',
           bio: 'Compañera de Chris Redfield en Kijuju durante la misión para detener el virus Uroboros.',
-          imatge: 'assets/img/Resident_Evil_logo.png',
+          imatge: 'assets/img/characters/929198_20080820_screen010.png',
           status: 'Vivo'
         }
       ];
 }
   
-
