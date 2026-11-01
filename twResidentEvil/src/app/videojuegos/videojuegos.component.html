@@ -1,0 +1,20 @@
+<section id="videojuegos" class="py-16 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-white text-center mb-10">
+    Línea Principal de Videojuegos
+  </h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    @for (game of games; track game.id) {
+      <article class="bg-zinc-900 border border-zinc-800 rounded-lg p-5 flex flex-col justify-between">
+        <div>
+          <span class="text-xs text-red-500 font-semibold uppercase">{{ game.year }}</span>
+          <h3 class="text-xl font-bold text-white mt-1">{{ game.title }}</h3>
+          <p class="text-zinc-400 text-sm mt-3">{{ game.description }}</p>
+        </div>
+        <div class="mt-6">
+          <span class="text-xs bg-zinc-800 text-zinc-300 px-3 py-1 rounded">{{ game.tag }}</span>
+        </div>
+      </article>
+    }
+  </div>
+</section>
