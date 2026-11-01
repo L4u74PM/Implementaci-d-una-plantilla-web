@@ -6,8 +6,9 @@ import { FooterComponent } from './footer/footer.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HistoriaComponent } from './historia/historia.component';
 import { VideojuegosComponent } from './videojuegos/videojuegos.component';
+import {ContactoComponent} from './contacto/contacto.component';
 @Component({
-  imports: [RouterOutlet, HeaderComponent, HeroComponent, FooterComponent, CharactersComponent, HistoriaComponent, VideojuegosComponent],
+  imports: [RouterOutlet, HeaderComponent, HeroComponent, FooterComponent, CharactersComponent, HistoriaComponent, VideojuegosComponent, ContactoComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
