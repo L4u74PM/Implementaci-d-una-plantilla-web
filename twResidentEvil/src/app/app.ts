@@ -4,8 +4,10 @@ import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 import { CharactersComponent } from './characters/characters.component';
+import { HistoriaComponent } from './historia/historia.component';
+import { VideojuegosComponent } from './videojuegos/videojuegos.component';
 @Component({
-  imports: [RouterOutlet, HeaderComponent, HeroComponent, FooterComponent, CharactersComponent],
+  imports: [RouterOutlet, HeaderComponent, HeroComponent, FooterComponent, CharactersComponent, HistoriaComponent, VideojuegosComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
