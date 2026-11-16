@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { HistoryEvent } from './historia.model';
+
 @Component({
-  standalone:true,
-  imports: [],
+  standalone: true,
   selector: 'app-historia',
   styles: ``,
   templateUrl: './historia.component.html',

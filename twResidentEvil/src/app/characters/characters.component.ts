@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { Character } from './character.model';
+
 @Component({
-  imports: [],
   selector: 'app-characters',
   styles: ``,
   templateUrl: './characters.component.html',
-  standalone:true
+  standalone: true
 })
 export class CharactersComponent {
 
@@ -102,4 +102,4 @@ export class CharactersComponent {
         }
       ];
 }
-  
+
