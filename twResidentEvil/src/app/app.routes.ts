@@ -12,5 +12,5 @@ export const routes: Routes = [
   { path: 'historia', component: HistoriaComponent },
   { path: 'videojuegos', component: VideojuegosComponent },
   { path: 'contacto', component: ContactoComponent },
-
+  { path: '**', redirectTo: 'inicio' },
 ];

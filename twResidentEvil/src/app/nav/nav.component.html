@@ -1,14 +1,27 @@
 <nav aria-label="Navegación principal" class="flex gap-6 text-sm font-medium p-3">
-    <ul>
-        <li class="text-zinc-300 hover:text-red-500 transition-colors"><a routerLink="/inicio" [routerLinkActive]='active'>Inicio</a></li>
-    </ul>
-    <ul>
-        <li class="text-zinc-300 hover:text-red-500 transition-colors"><a routerLink="/personajes" [routerLinkActive]='active'>Personajes</a></li>
-    </ul><ul>
-        <li class="text-zinc-300 hover:text-red-500 transition-colors"><a routerLink="/historia"[routerLinkActive]='active'>Historia</a></li>
-    </ul><ul>
-        <li class="text-zinc-300 hover:text-red-500 transition-colors"><a routerLink="/videojuegos" [routerLinkActive]='active'>Videojuegos</a></li>
-    </ul><ul>
-        <li class="text-zinc-300 hover:text-red-500 transition-colors"><a routerLink="/contacto" [routerLinkActive]='active'>Contacto</a></li>
-    </ul>
+  <ul>
+    <li class="text-zinc-300 hover:text-red-500 transition-colors">
+      <a routerLink="/inicio" routerLinkActive="text-red-500 font-semibold" [routerLinkActiveOptions]="{ exact: true }">Inicio</a>
+    </li>
+  </ul>
+  <ul>
+    <li class="text-zinc-300 hover:text-red-500 transition-colors">
+      <a routerLink="/personajes" routerLinkActive="text-red-500 font-semibold">Personajes</a>
+    </li>
+  </ul>
+  <ul>
+    <li class="text-zinc-300 hover:text-red-500 transition-colors">
+      <a routerLink="/historia" routerLinkActive="text-red-500 font-semibold">Historia</a>
+    </li>
+  </ul>
+  <ul>
+    <li class="text-zinc-300 hover:text-red-500 transition-colors">
+      <a routerLink="/videojuegos" routerLinkActive="text-red-500 font-semibold">Videojuegos</a>
+    </li>
+  </ul>
+  <ul>
+    <li class="text-zinc-300 hover:text-red-500 transition-colors">
+      <a routerLink="/contacto" routerLinkActive="text-red-500 font-semibold">Contacto</a>
+    </li>
+  </ul>
 </nav>
